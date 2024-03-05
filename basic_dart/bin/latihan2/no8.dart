@@ -6,7 +6,7 @@ void main() {
 
   int hasil = 0;
   while (angka > 0) {
-    angka ~/= 10;
+    angka = angka ~/ 10;
     hasil++;
   }
   print(hasil);
